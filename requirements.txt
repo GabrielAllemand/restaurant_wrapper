@@ -1,0 +1,9 @@
+requests
+urllib3
+pandas
+python-dotenv
+pydantic
+sqlalchemy
+psycopg2-binary
+pyarrow
+pytest

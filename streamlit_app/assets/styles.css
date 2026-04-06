@@ -1,0 +1,169 @@
+html, body, [class*="css"] {
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #0f172a;
+}
+
+.main .block-container {
+    padding-top: 1.2rem;
+    padding-bottom: 2.2rem;
+    max-width: 1520px;
+}
+
+h1, h2, h3 {
+    letter-spacing: -0.02em;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+    border-right: 1px solid #dbe7f5;
+}
+
+.hero-box {
+    background: linear-gradient(135deg, #0f4c81 0%, #2563eb 58%, #38bdf8 100%);
+    color: white;
+    border-radius: 28px;
+    padding: 28px 30px;
+    box-shadow: 0 18px 44px rgba(15, 76, 129, 0.22);
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 2.05rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    opacity: 0.96;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.30rem 0.72rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    color: white;
+    font-size: 0.82rem;
+    font-weight: 700;
+    margin-right: 8px;
+    margin-top: 8px;
+    border: 1px solid rgba(255,255,255,0.14);
+}
+
+.section-card {
+    background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+    border: 1px solid #e5edf7;
+    border-radius: 24px;
+    padding: 18px 20px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+    margin-bottom: 18px;
+}
+
+.kpi-card {
+    border-radius: 22px;
+    padding: 18px 18px 14px 18px;
+    color: #0f172a;
+    min-height: 128px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(255,255,255,0.22);
+}
+
+.kpi-blue {
+    background: linear-gradient(180deg, #eff6ff 0%, #dbeafe 100%);
+}
+.kpi-green {
+    background: linear-gradient(180deg, #ecfdf5 0%, #d1fae5 100%);
+}
+.kpi-orange {
+    background: linear-gradient(180deg, #fff7ed 0%, #ffedd5 100%);
+}
+.kpi-purple {
+    background: linear-gradient(180deg, #f5f3ff 0%, #ede9fe 100%);
+}
+.kpi-red {
+    background: linear-gradient(180deg, #fef2f2 0%, #fee2e2 100%);
+}
+
+.kpi-label {
+    font-size: 0.92rem;
+    color: #475569;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.kpi-value {
+    font-size: 1.95rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.12;
+}
+
+.kpi-help {
+    font-size: 0.84rem;
+    color: #64748b;
+    margin-top: 0.38rem;
+}
+
+.small-muted {
+    color: #64748b;
+    font-size: 0.92rem;
+    margin-bottom: 0.2rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.24rem 0.62rem;
+    border-radius: 999px;
+    font-size: 0.76rem;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.status-green {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-orange {
+    background: #ffedd5;
+    color: #9a3412;
+}
+
+.status-gray {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.stDownloadButton button {
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    border: 1px solid #cfe0f3 !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%) !important;
+}
+
+div[data-testid="stMetric"] {
+    background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+    border: 1px solid #e5edf7;
+    padding: 12px 14px;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid #e5edf7;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+div[data-baseweb="select"] > div,
+div[data-baseweb="input"] > div {
+    border-radius: 12px !important;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5edf7;
+    margin: 1rem 0 1rem 0;
+}
